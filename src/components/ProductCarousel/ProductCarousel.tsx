@@ -1,16 +1,16 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
+// import "swiper/css";
+// import "swiper/css/effect-fade";
 import "./productcarousel.css";
 import { EffectFade, Autoplay } from "swiper/modules";
-import Beach from "../../../public/assets/products carousel/b.jpg";
-import Dobby from "../../../public/assets/products carousel/d.jpg";
+// import Beach from "../../../public/assets/products carousel/b.jpg";
+// import Dobby from "../../../public/assets/products carousel/d.jpg";
 import Hotel from "../../../public/assets/products carousel/h.jpg";
-import Jacquartd from "../../../public/assets/products carousel/j.jpg";
-import Kitchen from "../../../public/assets/products carousel/k.jpg";
-import Napkins from "../../../public/assets/products carousel/n.jpg";
-import Pool from "../../../public/assets/products carousel/p.jpg";
-import Velour from "../../../public/assets/products carousel/v.jpg";
+// import Jacquartd from "../../../public/assets/products carousel/j.jpg";
+// import Kitchen from "../../../public/assets/products carousel/k.jpg";
+// import Napkins from "../../../public/assets/products carousel/n.jpg";
+// import Pool from "../../../public/assets/products carousel/p.jpg";
+// import Velour from "../../../public/assets/products carousel/v.jpg";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 
 export default function ProductCarousel() {
@@ -37,7 +37,7 @@ export default function ProductCarousel() {
           <KeyboardDoubleArrowRightIcon style={{ fontSize: "48px" }} />
         </div>
       </SwiperSlide>
-      <SwiperSlide>
+      {/*<SwiperSlide>
         <img src={Beach} alt="carousel-beach" />
         <div className="product-headers">
           <span>Sun-Ready Beach Towels</span>
@@ -113,7 +113,7 @@ export default function ProductCarousel() {
           </p>
           <KeyboardDoubleArrowRightIcon style={{ fontSize: "48px" }} />
         </div>
-      </SwiperSlide>
+      </SwiperSlide> */}
     </Swiper>
   );
 }

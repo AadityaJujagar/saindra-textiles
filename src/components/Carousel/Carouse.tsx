@@ -6,10 +6,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "./carousel.css";
 import { EffectFade, Navigation, Pagination, Autoplay } from "swiper/modules";
 import carouselImage1 from "../../../public/assets/main slider/carousel-image1.jpg";
-import carouselImage2 from "../../../public/assets/main slider/carousel-image2.jpg";
-import carouselImage3 from "../../../public/assets/main slider/carousel-image3.jpg";
-import carouselImage4 from "../../../public/assets/main slider/carousel-image4.jpg";
-import carouselImage5 from "../../../public/assets/main slider/carousel-image5.jpg";
+// import carouselImage2 from "../../../public/assets/main slider/carousel-image2.jpg";
+// import carouselImage3 from "../../../public/assets/main slider/carousel-image3.jpg";
+// import carouselImage4 from "../../../public/assets/main slider/carousel-image4.jpg";
+// import carouselImage5 from "../../../public/assets/main slider/carousel-image5.jpg";
 
 export default function Carousel() {
   return (
@@ -38,7 +38,7 @@ export default function Carousel() {
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="main-carousel">
+        {/* <SwiperSlide className="main-carousel">
           <img src={carouselImage2} alt="carousel image 2" />
           <div className="headers">
             <span>Sustainable Luxury in Every Thread</span>
@@ -74,7 +74,7 @@ export default function Carousel() {
               care.
             </p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );
