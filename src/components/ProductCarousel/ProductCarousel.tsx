@@ -80,7 +80,7 @@ export default function ProductCarousel() {
               }}
             >
               <KeyboardDoubleArrowRightIcon />
-              <p>Velour</p>
+              <p>Velvet</p>
             </div>
             <div
               style={{
