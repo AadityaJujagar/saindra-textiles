@@ -8,7 +8,7 @@ export const Navbar = () => {
       <NavLink to="/">
         <img src={SaindratexLogo} alt="kala towels logo" />
       </NavLink>
-      <a href="">
+      <a href="https://wa.me/918421975405">
         <button>WhatsApp</button>
       </a>
     </nav>

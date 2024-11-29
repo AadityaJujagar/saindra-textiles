@@ -49,16 +49,11 @@ footer {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .connect-social li:nth-child(2) a {
-  color: #000000;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-}
-.connect-social li:nth-child(3) a {
   color: #1877f2;
   transition: transform 0.3s ease, background-color 0.3s ease;
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
-.connect-social li:nth-child(4) a {
+.connect-social li:nth-child(3) a {
   color: #25d366;
   transition: transform 0.3s ease, background-color 0.3s ease;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -69,14 +64,10 @@ footer {
   color: #ffffff;
 }
 .connect-social li:nth-child(2) a:hover {
-  background-color: #000000;
-  color: #ffffff;
-}
-.connect-social li:nth-child(3) a:hover {
   background-color: #1877f2;
   color: #ffffff;
 }
-.connect-social li:nth-child(4) a:hover {
+.connect-social li:nth-child(3) a:hover {
   background-color: #25d366;
   color: #ffffff;
 }

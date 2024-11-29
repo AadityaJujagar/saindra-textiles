@@ -5,7 +5,7 @@ import Jacquartd from "../../../public/assets/products carousel/j.jpg";
 import Kitchen from "../../../public/assets/products carousel/k.jpg";
 import Napkins from "../../../public/assets/products carousel/n.jpg";
 import Pool from "../../../public/assets/products carousel/p.jpg";
-import Velour from "../../../public/assets/products carousel/v.jpg";
+import Velvet from "../../../public/assets/products carousel/v.jpeg";
 import ProductCarousel from "../ProductCarousel/ProductCarousel";
 import "./products.css";
 
@@ -39,7 +39,7 @@ export const Products = () => {
             <p>jacquard Towels</p>
           </div>
           <div className="product p6">
-            <img src={Velour} alt="" />
+            <img src={Velvet} alt="" />
             <p>Velour Towels</p>
           </div>
           <div className="product p7">

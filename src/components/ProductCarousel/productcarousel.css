@@ -70,15 +70,7 @@
   padding: 12px;
 }
 
-.towelTypes {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: start;
-  justify-content: center;
-}
-
-@media (min-width: 360px) and (max-width: 767px) {
+@media (min-width: 280px) and (max-width: 767px) {
   .towelTypes {
     display: flex;
     flex-wrap: wrap;
@@ -89,5 +81,32 @@
   .product-headers span {
     font-size: 24px;
     font-weight: bold;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .towelTypes {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1600px) {
+  .towelTypes {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1600px) {
+  .towelTypes {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
   }
 }

@@ -3,8 +3,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MarkEmailReadIcon from "@mui/icons-material/MarkEmailRead";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import XIcon from "@mui/icons-material/X";
-import FacebookIcon from "@mui/icons-material/Facebook";
+import GoogleIcon from "@mui/icons-material/Google";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import SaindratexLogo from "../../../public/assets/saindra-tex.png";
 
@@ -23,22 +22,20 @@ export const Footer = () => {
           </p>
           <ul className="connect-social">
             <li>
-              <a href="" target="_blank">
+              <a
+                href="https://www.instagram.com/saindra_textiles/?utm_source=ig_web_button_share_sheet"
+                target="_blank"
+              >
                 <InstagramIcon />
               </a>
             </li>
             <li>
-              <a href="" target="_blank">
-                <XIcon />
+              <a href="https://g.co/kgs/pxCd1RR" target="_blank">
+                <GoogleIcon />
               </a>
             </li>
             <li>
-              <a href="" target="_blank">
-                <FacebookIcon />
-              </a>
-            </li>
-            <li>
-              <a href="" target="_blank">
+              <a href="https://wa.me/918421975405" target="_blank">
                 <WhatsAppIcon />
               </a>
             </li>
