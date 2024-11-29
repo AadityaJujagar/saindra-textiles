@@ -36,3 +36,9 @@ a button:hover {
   color: #25d366;
   transition: all 240ms ease-in-out;
 }
+
+@media (min-width: 240px) and (max-width: 767px) {
+  a button {
+    padding: 11px;
+  }
+}
