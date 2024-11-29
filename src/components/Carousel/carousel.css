@@ -89,7 +89,7 @@
 }
 
 /* Mobile */
-@media (min-width: 420px) and (max-width: 767px) {
+@media (min-width: 360px) and (max-width: 767px) {
   .main-carousel {
     height: 721px;
   }
