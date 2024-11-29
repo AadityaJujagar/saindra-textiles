@@ -23,7 +23,7 @@ export const Footer = () => {
           <ul className="connect-social">
             <li>
               <a
-                href="https://www.instagram.com/saindra_textiles/?utm_source=ig_web_button_share_sheet"
+                href="https://www.instagram.com/saindra_textiles/"
                 target="_blank"
               >
                 <InstagramIcon />
