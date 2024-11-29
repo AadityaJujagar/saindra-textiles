@@ -40,7 +40,7 @@ export const Products = () => {
           </div>
           <div className="product p6">
             <img src={Velvet} alt="" />
-            <p>Velour Towels</p>
+            <p>Velvet Towels</p>
           </div>
           <div className="product p7">
             <img src={Pool} alt="" />
