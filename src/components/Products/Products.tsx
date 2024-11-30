@@ -1,11 +1,13 @@
 import Beach from "../../../public/assets/products carousel/b.jpg";
-import Dobby from "../../../public/assets/products carousel/d.jpg";
+import Dobby from "../../../public/assets/products carousel/d.jpeg";
 import Hotel from "../../../public/assets/products carousel/h.jpg";
-import Jacquartd from "../../../public/assets/products carousel/j.jpg";
+import Jacquartd from "../../../public/assets/products carousel/j.jpeg";
 import Kitchen from "../../../public/assets/products carousel/k.jpg";
-import Napkins from "../../../public/assets/products carousel/n.jpg";
-import Pool from "../../../public/assets/products carousel/p.jpg";
+import Napkins from "../../../public/assets/products carousel/n.jpeg";
+import Pool from "../../../public/assets/products carousel/p.jpeg";
 import Velvet from "../../../public/assets/products carousel/v.jpeg";
+import Bathrobe from "../../../public/assets/products carousel/br.jpg";
+import Bathmat from "../../../public/assets/products carousel/bm.jpg";
 import ProductCarousel from "../ProductCarousel/ProductCarousel";
 import "./products.css";
 
@@ -49,6 +51,14 @@ export const Products = () => {
           <div className="product p8">
             <img src={Napkins} alt="" />
             <p>Napkins</p>
+          </div>
+          <div className="product p9">
+            <img src={Bathrobe} alt="" />
+            <p>Bathrobe</p>
+          </div>
+          <div className="product p10">
+            <img src={Bathmat} alt="" />
+            <p>Bath Mat</p>
           </div>
         </div>
       </div>

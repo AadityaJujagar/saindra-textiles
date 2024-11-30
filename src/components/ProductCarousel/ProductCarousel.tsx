@@ -102,6 +102,26 @@ export default function ProductCarousel() {
               <KeyboardDoubleArrowRightIcon />
               <p>Napkins</p>
             </div>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <KeyboardDoubleArrowRightIcon />
+              <p>Bathrob</p>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <KeyboardDoubleArrowRightIcon />
+              <p>Bath Mat</p>
+            </div>
           </div>
         </div>
       </SwiperSlide>

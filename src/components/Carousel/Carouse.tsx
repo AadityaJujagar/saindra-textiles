@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./carousel.css";
 import { EffectFade, Navigation, Pagination, Autoplay } from "swiper/modules";
-import carouselImage1 from "../../../public/assets/main slider/carousel-image2.jpg";
+import carouselImage1 from "../../../public/assets/main slider/homepage.jpg";
 
 export default function Carousel() {
   return (

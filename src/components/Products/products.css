@@ -17,11 +17,13 @@ h1 {
 .productsGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-template-areas:
     "all all p1 p2"
     "all all p3 p4"
-    "p5 p6 p7 p8";
+    "p5 p6 p7 p8"
+    "p9 p10 p11 p12"
+    ;
   gap: 16px;
 }
 

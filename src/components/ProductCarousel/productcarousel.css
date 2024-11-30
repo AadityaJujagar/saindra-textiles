@@ -60,14 +60,14 @@
 }
 
 .product-headers span {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bold;
 }
 
 .product-headers p {
   font-size: 18px;
   font-weight: bold;
-  padding: 12px;
+  padding: 8px;
 }
 
 @media (min-width: 280px) and (max-width: 767px) {
